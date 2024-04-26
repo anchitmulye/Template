@@ -1,6 +1,6 @@
 #include "Engine.hpp"
 
-namespace temp
+namespace Template
 {
     Engine::Engine()
     {

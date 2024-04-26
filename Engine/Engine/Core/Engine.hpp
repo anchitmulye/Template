@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace temp
+namespace Template
 {
     class Engine
     {
