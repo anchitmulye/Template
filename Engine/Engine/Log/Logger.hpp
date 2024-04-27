@@ -25,4 +25,3 @@ namespace Template
 #define TP_CORE_WARN(...)     ::Template::Logger::GetCoreLogger()->warn(__VA_ARGS__)
 #define TP_CORE_INFO(...)     ::Template::Logger::GetCoreLogger()->info(__VA_ARGS__)
 #define TP_CORE_TRACE(...)    ::Template::Logger::GetCoreLogger()->trace(__VA_ARGS__)
-
