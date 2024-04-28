@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace temp
+namespace Template
 {
     class Engine
     {
@@ -10,9 +10,9 @@ namespace temp
         Engine();
         ~Engine();
         void CreateEngine();
+        uint8_t TestNumber();
+        std::string TestString();
     private:
         void InternalFunction();
-        std::string TestString();
-        uint8_t TestNumber();
     };
-} // namespace temp
+} // namespace Template

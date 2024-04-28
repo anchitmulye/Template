@@ -1,6 +1,6 @@
 #include "Engine.hpp"
 
-namespace temp
+namespace Template
 {
     Engine::Engine()
     {
@@ -31,4 +31,4 @@ namespace temp
     {
         return 10;
     }
-} // namespace 
+} // namespace Template

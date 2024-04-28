@@ -2,7 +2,7 @@
 
 int main()
 {
-    temp::Engine* engine = new temp::Engine();
+    Template::Engine* engine = new Template::Engine();
     engine->CreateEngine();
     delete engine;
 }

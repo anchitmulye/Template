@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22.1)
 
-project(Template VERSION 1.0.0)
+project(Template VERSION 1.2.0)
 
 include_directories(${CMAKE_SOURCE_DIR}/Engine/Engine/)
 
