@@ -1,7 +1,7 @@
 #pragma once
 
 // Logging
-#define TP_LOG_FILE "Logs/Engine.log"
+#define TP_LOG_FILE "/Users/anchitmulye/Documents/Code/Template/Build/Logs/Engine.log"  // Absolute path
 
 #define TP_LOG_LEVEL_TRACE     0
 #define TP_LOG_LEVEL_DEBUG     1
