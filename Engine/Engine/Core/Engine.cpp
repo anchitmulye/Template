@@ -1,7 +1,7 @@
 #include "Engine.hpp"
+#include "Config.hpp"
 
 #include "Log/Logger.hpp"
-#include "Config.hpp"
 
 namespace Template
 {
@@ -43,4 +43,4 @@ namespace Template
         TP_CORE_TRACE("TestNumber()");
         return 10;
     }
-} // namespace 
+} // namespace Template
