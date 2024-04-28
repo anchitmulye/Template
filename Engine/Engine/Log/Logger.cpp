@@ -6,6 +6,9 @@ namespace Template
 
     void Logger::Init(const int& logLevel, const char* filePath)
     {
+        if (spdlog::get("Engine") != nullptr)
+            return;
+
         std::vector<spdlog::sink_ptr> logSinks;
         logSinks.emplace_back(std::make_shared<spdlog::sinks::stdout_color_sink_mt>());
         logSinks.emplace_back(std::make_shared<spdlog::sinks::basic_file_sink_mt>(filePath, true));
