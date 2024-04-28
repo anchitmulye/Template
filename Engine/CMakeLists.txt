@@ -21,7 +21,6 @@ if(TP_TESTING)
 
     add_executable(EngineTest ${ENGINE_TEST_SOURCES})
 
-    target_link_libraries(Engine gtest_main gtest)
     target_link_libraries(EngineTest gtest_main Engine)
 
 endif()
